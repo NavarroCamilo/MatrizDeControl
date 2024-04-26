@@ -114,5 +114,6 @@ if __name__ == "__main__":
     term = [0, 0, 0]#tantos 0 como columnas tenga la matriz G
     sis=resolver_sistema_ecuaciones(mat, term)
     sis=convertir_coef(sis, 2)
-    mat_control(sis)
+    H=mat_control(sis)
+    print(H)
     
